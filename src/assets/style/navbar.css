@@ -1,0 +1,41 @@
+.navbar {
+    background-blend-mode: overlay;
+    background-color: rgb(40,44,52);
+    width: 100%;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav-links-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: white;
+}
+
+.nav-link:hover {
+    color: skyblue;
+}
+
+.nav-links-right {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-link a {
+    color: white; 
+    margin-right: 1rem;
+
+}

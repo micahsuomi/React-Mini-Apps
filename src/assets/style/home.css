@@ -1,0 +1,30 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 60, 70);
+    background-image: linear-gradient(to left, #30cfd0 0%, #440867 100%);
+    padding: 7rem 8rem;
+    height: 85vh;
+    width: 100vw;
+
+}
+
+.title {
+    color: skyblue;
+    font-size: 40px;
+}
+
+.subtitle {
+    color: skyblue;
+    font-size: 25px;
+    margin-top: 1.4rem;
+
+}
+
+.react-logo {
+    width: 8.5rem;
+    height: 6rem;
+    margin-top: 1rem;
+}

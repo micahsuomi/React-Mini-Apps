@@ -1,0 +1,23 @@
+.about-container__header {
+    background-color: rgb(62, 66, 75);
+    padding: 7rem 8rem;
+}
+.about-header {
+    font-size: 25px;
+    color: skyblue;
+}
+
+.about-description {
+    padding: 2rem 4rem;
+}
+.about-paragraph {
+    font-size: 18px;
+    margin-top: 1.5rem;
+    line-height: 1.8;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 3rem;
+}

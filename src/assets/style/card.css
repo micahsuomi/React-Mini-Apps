@@ -1,0 +1,13 @@
+.card-container {
+    padding: 1rem;
+
+}
+
+.card-header i {
+    color: skyblue;
+}
+ 
+
+.card-title {
+    margin-top: 1rem;
+}
