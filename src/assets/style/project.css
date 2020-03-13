@@ -54,10 +54,6 @@
 }
 
 
-
-.app-title {
-}
-
 .app-img {
     width: 100%;
 }
@@ -101,4 +97,25 @@
     transition: all .2s ease-in-out;
 
 
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        height: 13rem;
+        width: 13rem;
+    }
+
+    .app-body {
+        padding: 1rem 1rem;
+    }
+
+    
+    .app-title {
+        font-size: 15px;
+    }
+
+    .app-description {
+        font-size: 12px;
+        margin-top: .5rem;
+    }
 }

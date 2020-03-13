@@ -21,3 +21,14 @@
     justify-content: space-around;
     padding: 4rem 3rem;
 }
+
+@media screen and (max-width: 500px) {
+    .about-description {
+        padding: 2rem 2rem;
+    }
+
+    .about-paragraph {
+        font-size: 13px;
+      
+    }
+}

@@ -3,7 +3,6 @@
 .apps-header__container {
     background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     background-image: linear-gradient(to left, #30cfd0 0%, #440867 100%);
-
     padding: 6rem 10rem;
     height: 40vh;
 }
@@ -69,5 +68,48 @@
     100% {
         opacity: 1;
         transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .apps-header__container {
+        height: 25vh;
+    }
+    .apps-wrapper {
+        padding: 5rem 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .apps-wrapper {
+        padding: 3rem 3rem;
+    }
+
+    .app-body {
+        padding: 1rem 1rem;
+    }
+
+    .app-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .apps-header__container {
+        padding: 3rem 5rem;
+    }
+
+    .btn-load-apps, .btn-about {
+        padding: .7rem;
+    }
+    
+    .apps-body {
+        padding: 3rem 3rem;
+    }
+
+    .apps-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
     }
 }

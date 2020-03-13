@@ -28,3 +28,24 @@
     height: 6rem;
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+    
+.header-container {
+    padding: 7rem 2rem;
+}
+
+.title {
+    font-size: 27px;
+}
+
+.subtitle {
+    font-size: 18px;
+
+}
+
+.react-logo {
+    width: 6.1rem;
+    height: 4rem;
+}
+}

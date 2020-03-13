@@ -15,3 +15,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+@media screen and (max-width: 850px) {
+
+  .show-tablet {
+      display: block;
+  }
+  .navbar {
+    height: 3.5rem;
+  }
+}
