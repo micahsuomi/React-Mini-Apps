@@ -1,5 +1,7 @@
 
-
+.apps-container {
+    min-height: 85vh;
+}
 .apps-header__container {
     background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     background-image: linear-gradient(to left, #30cfd0 0%, #440867 100%);

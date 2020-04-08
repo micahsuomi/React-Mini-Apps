@@ -80,6 +80,7 @@
  }
 .grow:hover { 
     transform: scale(1.1);
+    filter: brightness(40%)
  }
 
 

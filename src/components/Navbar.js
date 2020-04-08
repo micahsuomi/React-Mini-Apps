@@ -6,7 +6,10 @@ import '../assets/style/Navbar.css';
 const Navbar = () => {
 
     const formattedData = navData.map((data) => (
-    <li className="nav-link"><a href={data.link}><i className={data.icon}></i></a></li>
+    <li className="nav-link">
+        <a href={data.link}>
+            <i className={data.icon}>
+        </i></a></li>
     
     
     ))
