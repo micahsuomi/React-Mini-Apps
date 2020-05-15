@@ -1,7 +1,7 @@
 import img1 from '../assets/imgs/app1.PNG';
 import img2 from '../assets/imgs/app2.PNG';
 import img3 from '../assets/imgs/app3.PNG';
-
+import img4 from '../assets/imgs/app4.PNG';
 
 
 export const apps = [
@@ -23,5 +23,11 @@ export const apps = [
         link: 'https://design-mockup-react.netlify.com/',
         img: img3,
         description: 'A Design Mockup built with React'
+    },
+    {
+        title: 'Star Wars API Data',
+        link: 'https://starwarsapis.netlify.com/',
+        img: img4,
+        description: 'An app displaying Star Wars API data'
     }
 ]
