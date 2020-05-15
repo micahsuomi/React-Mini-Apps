@@ -1,15 +1,24 @@
 import React from 'react';
-import imgFooter from '../assets/imgs/logo.png';
+import {footerData} from './footerData';
 import '../assets/style/footer.css';
 
 const Footer = () => {
-
+    const formattedData = footerData.map((data) => (
+        <li className="nav-link">
+            <a href={data.link} target="blank">
+                <i className={data.icon}>
+            </i></a></li>
+        
+        
+        ))
     return (
         <footer className="footer">
-            <ul className="footer-wrapper">
+            <div className="footer-wrapper">
                 <a href="https://michelezuccawebdeveloper.netlify.com/"><li>Michele Zucca Web Dev</li></a>
-                <a href="https://www.integrify.io/en/"><li><img src={imgFooter} className="footer-img" alt="footer logo integrify"></img></li></a>
-            </ul>
+                <ul className="footer-icons__wrapper">
+                    {formattedData}
+                </ul>
+            </div>
         </footer>
     )
 }

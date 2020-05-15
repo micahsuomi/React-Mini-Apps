@@ -2,6 +2,8 @@ import img1 from '../assets/imgs/app1.PNG';
 import img2 from '../assets/imgs/app2.PNG';
 import img3 from '../assets/imgs/app3.PNG';
 import img4 from '../assets/imgs/app4.PNG';
+import img5 from '../assets/imgs/app5.PNG';
+
 
 
 export const apps = [
@@ -29,5 +31,11 @@ export const apps = [
         link: 'https://starwarsapis.netlify.com/',
         img: img4,
         description: 'An app displaying Star Wars API data'
+    },
+    {
+        title: 'React Weather App',
+        link: 'https://react-weather-mini-app.netlify.app/',
+        img: img5,
+        description: 'Displays weather data through a search function'
     }
 ]

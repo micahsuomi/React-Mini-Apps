@@ -1,6 +1,6 @@
 .footer {
     background-color: rgb(40,44,52);
-    padding: .5rem 1rem;
+    padding: 2rem 1rem;
 
 }
 
@@ -15,6 +15,9 @@
 .footer-wrapper li {
     color: white;
 }
-.footer-img {
-    width: 20%
+.footer-icons__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
 }
